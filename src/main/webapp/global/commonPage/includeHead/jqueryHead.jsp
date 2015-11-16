@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<%=baseUrl%>/global/scripts/jquery/jquery-1.4.4.min.js"></script>

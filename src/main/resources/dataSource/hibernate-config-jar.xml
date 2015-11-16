@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- hibernate配置文件,与数据库类型无关,在applicationContext.xml中被加载
+	采用jar包发布时使用本配置文件
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<description>sessionFactory配置</description>
+		<property name="dataSource">
+			<ref bean="dataSource"/>
+		</property>
+        <property name="useTransactionAwareDataSource" value="true"></property>
+		<property name="mappingJarLocations">
+			<!-- hibernate映射文件List -->
+			<list>
+                <value>/WEB-INF/lib/console*.jar</value>
+                <value>/WEB-INF/lib/dc*.jar</value>
+                <value>/WEB-INF/lib/core*.jar</value>
+			</list>
+		</property>
+		<!-- 配置hibernate属性 -->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.jdbc.fetch_size">100</prop>
+				<prop key="hibernate.jdbc.batch_size">30</prop>
+				<prop key="hibernate.connection.release_mode">on_close</prop>
+				<prop key="hibernate.jdbc.use_scrollable_resultset">true</prop>
+				<prop key="hibernate.cglib.use_reflection_optimizer">false</prop>
+				<prop key="hibernate.generate_statistics">false</prop>
+				<prop key="hibernate.query.factory_class">org.hibernate.hql.ast.ASTQueryTranslatorFactory</prop>
+				<!-- sqldebug -->
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.use_sql_comments">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

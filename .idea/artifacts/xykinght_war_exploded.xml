@@ -1,0 +1,110 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xykinght:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/xykinght_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xykinght" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jacob.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jdom-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jdom-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/asm-3.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/bsh-1.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/oro-2.0.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jta-1.0.1B.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jxl-2.6.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/cglib-2.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jmock-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/oscache-2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xbean-2.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/httpcore-4.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jaxb-api-2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jcifs-1.3.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/json-lib-2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/log4j-1.2.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/logkit-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/saaj-api-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/sqljdbc4-4.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/struts-1.2.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xmlsec-1.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/ehcache-1.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/ezmorph-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jaxws-api-2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/saaj-impl-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/XmlSchema-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xstream-1.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/httpmime-4.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jsr173_api-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/opensaml-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/stax-api-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/velocity-1.6.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xmlbeans-2.5.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/asm-attrs-1.5.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jaxb-impl-2.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/slf4j-api-1.6.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/slf4j-nop-1.6.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xml-apis-1.0.b2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xmlpull-1.1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xpp3_min-1.1.4c.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/activation-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-pool-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/httpclient-4.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jaxen-1.1-beta-9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/xbean-spring-2.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-codec-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/json-simple-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-mock-2.0.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-jxpath-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/hibernate-3.2.1.ga.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/json-lib-2.3-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/javassist-3.12.1.GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/persistence-api-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/slf4j-log4j12-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-struts-2.0.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/stax-utils-20040917.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-digester-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/javax.mail-api-1.4.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-discovery-0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-logging-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/avalon-framework-4.1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-httpclient-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/httpclient-cache-4.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jackson-core-asl-1.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/hibernate-core-3.2.6.ga.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-tx-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/jackson-mapper-asl-1.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-aop-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-asm-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-orm-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-oxm-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-web-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-core-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-jdbc-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/commons-attributes-api-2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-beans-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-webmvc-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/mc-web-1.0-20130530.092308-1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-context-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/hibernate-annotations-3.2.1.ga.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/CommunicationCenterRequests-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-expression-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/CommunicationCenterResponses-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyiLib/spring-context-support-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyinewLib/commons-io-1.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../lib/xuyinewLib/bouncycastle.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="xykinght/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:/dataSource/jdbc-ccbs.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="dataSource"
+          class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close">
+        <property name="driverClass">
+            <value>${jdbcCcbs.driverClassName}</value>
+        </property>
+        <property name="jdbcUrl">
+            <value>${jdbcCcbs.url}</value>
+        </property>
+        <property name="user">
+            <value>${jdbcCcbs.username}</value>
+        </property>
+        <property name="password">
+            <value>${jdbcCcbs.password}</value>
+        </property>
+        <property name="initialPoolSize">
+            <value>20</value>
+        </property>
+        <property name="minPoolSize">
+            <value>20</value>
+        </property>
+        <property name="maxPoolSize">
+            <value>250</value>
+        </property>
+        <property name="autoCommitOnClose">
+            <value>false</value>
+        </property>
+
+        <property name="checkoutTimeout">
+            <value>10000</value>
+        </property>
+
+        <!--最大空闲的时间，单位是秒，无用的链接再过时后会被回收 Default: 0 -->
+        <property name="maxIdleTime">
+            <value>60</value>
+        </property>
+        <!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 -->
+        <property name="acquireIncrement">
+            <value>5</value>
+        </property>
+        <!--定义在从数据库获取新连接失败后重复尝试的次数。Default: 30 -->
+        <property name="acquireRetryAttempts">
+            <value>10</value>
+        </property>
+        <!--如果设为true那么在取得连接的同时将校验连接的有效性。Default: false -->
+        <property name="testConnectionOnCheckin">
+            <value>true</value>
+        </property>
+        <property name="maxStatements" value="50"/>
+        <!-- false:获取连接失败将会引起所有等待连接池来获取连接的线程抛出异常。但是数据源仍有效保留，并在下次调用getConnection()的时候继续尝试获取连接。 -->
+        <property name="breakAfterAcquireFailure" value="false"/>
+    </bean>
+
+</beans>

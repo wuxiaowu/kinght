@@ -1,0 +1,66 @@
+
+<html>
+<head>
+	<title>dchecktree演示</title>
+</head>
+<script type="text/javascript" src="dtreecheck.js"></script>
+<link rel="stylesheet" href="dtreecheck.css"/>
+<body>
+<div id="treeContainer" style="height:400px;width:300px;border:1px solid #cccccc"></div>
+
+<script language="javascript" type="text/javascript">
+function onChanged(){
+}
+
+//id, pid, name, url, check, open, title, icon, iconOpen, target
+//try{
+	var dtree = new dTree('dtree', true, 'treeContainer', onChanged, 'ids', true);
+	dtree.add('root', '-1', '所有业务类型');
+	dtree.add('t01', 'root', '往来业务');
+	dtree.add('t02', 'root', '工资及福利费业务');
+	dtree.add('t03', 'root', '税金业务');
+	dtree.add('t04', 'root', '物资业务');
+	dtree.add('t05', 'root', '固定资产业务');
+	dtree.add('t06', 'root', '生产成本业务');
+	dtree.add('07', 'root', '其他收支业务');
+	dtree.add('08', 'root', '营业外收支业务');
+	dtree.add('09', 'root', '财务费用业务');
+	dtree.add('10', 'root', '上下级往来业务');
+	dtree.add('11', 'root', '融资业务');
+	dtree.add('12', 'root', '投资业务');
+	
+		dtree.add('0101', 't01', '备用金');
+		dtree.add('0102', 't01', '应收票据');
+		dtree.add('0103', 't01', '应付票据');
+		dtree.add('0104', 't01', '应收帐款');
+		dtree.add('0105', 't01', '预收帐款');
+	
+			dtree.add('010101', '0101', '借支备用金');
+			dtree.add('010102', '0101', '借支备用金(新)');
+			dtree.add('010103', '0101', '归还备用金');
+	
+			dtree.add('010201', '0102', '接收应收票据');
+			dtree.add('010202', '0102', '应收票据贴现');
+			dtree.add('010203', '0102', '应收票据兑现');
+			dtree.add('010204', '0102', '应收票据结转');
+
+			dtree.add('010301', '0103', '签发应付票据');
+
+		dtree.add('0201', 't02', '上级拨入工资基金');
+		dtree.add('0202', 't02', '所属单位上交');
+		dtree.add('0203', 't02', '其他增加');
+		dtree.add('0204', 't02', '工资、奖金（津贴）发放');
+		dtree.add('0205', 't02', '工资支用数结转');
+		dtree.add('0206', 't02', '拨付所属单位');
+		dtree.add('0207', 't02', '上缴上级单位');
+		dtree.add('0208', 't02', '补充养老金');
+		dtree.add('0209', 't02', '医药费');
+	
+		dtree.showTree();
+//		dtree.openAll();
+//}catch(e){
+//	alert(e.description);
+//}
+</script>
+</body>
+</html>

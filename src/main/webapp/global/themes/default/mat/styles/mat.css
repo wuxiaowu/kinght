@@ -1,0 +1,199 @@
+#ext-gen6 #self-logo{background-image:url(images/top-left.gif);}
+.list-data-indent2{padding-left:25px;}
+#template-maintenance-list table.datas,
+.maintenance-deal-with-data table.sort-datas{width:600px;}
+#wbs-info div.ui-row label{width:160px;}
+div.ui-buttons-left{ padding-left:120px; padding-top:30px;}
+.oriented-middle{padding-top:50px;}
+
+div.ui-row-add{margin-top: 6px; clear: left; width:580px;}
+div.ui-row-add span.ui-cell{display: block; float: left; width: 290px; margin: 1px 0 1px 0;}
+div.ui-row-add label{float: left; clear: left; text-align: right; width: 160px; padding-top: 5px;}
+div.ui-row-add input,div.ui-row-add select{ text-align: left; width: 120px;}
+body.layout-content #layout-content{ overflow-x:hidden;}
+
+.form-many-col div.ui-row span.ui-cell-search label.add{width:110px;}
+.form-many-col div.ui-row span.ui-cell label.add{width:110px;}
+.form-many-col div.alone  label.add{width:110px;}
+
+.form-many-col div.ui-row span.remark {display: block; float: left; width:490px; margin: 1px 0 1px 0;}
+.form-many-col div.ui-row span.remark input {width:388px;}
+#layout-footer span.page-info{width:230px;padding-top:3px; float:right; font-size:13px; font-weight:bold;}
+#accessories-info span.info{font-size:13px; font-weight:bold; margin-top:-5px;}
+
+.form-many-col div.ui-row-add{margin-top: 6px; clear: left; width: 980px;}
+.form-many-col div.ui-row-add label{width:95px;float: left; clear: left; text-align: right;padding-top: 5px;}
+.form-many-col div.ui-row-add label.add{width:110px;float: left; clear: left; text-align: right;padding-top: 5px;}
+.form-many-col div.ui-row-add label.add1{width:160px;float: left; clear: left; text-align: right;padding-top: 5px;}
+#show-proportion{ display:none;}
+.form-many-col div.ui-row-add span.add{width:320px; display: block; float: left; margin: 1px 0 1px 0;}
+.form-many-col div.ui-row-add span.ui-cell-add{width:320px; display: block; float: left; margin: 1px 0 1px 0;}
+.form-many-col div.ui-row-add span.ui-cell-sub{width:260px; display: block; float: left; margin: 1px 0 1px 0;}
+div.ui-row-add div.read-only-search{padding-top:4px;}
+html>body div.ui-row-add div.read-only-search{padding-top:5px;}
+
+.form-many-col  span.ui-cell-add select,.form-many-col  span.ui-cell-add input.text{width:220px;}
+.form-many-col  span.ui-cell-sub select,.form-many-col  span.ui-cell-sub input.text{width:160px;}
+div .ui-row textarea.two{width:520px;}
+.form-many-col div .ui-row textarea.three{width:650px;}
+#div-table{height:300px; overflow:auto; width:100%;}
+.iframe-top{margin-top:11px;}
+th.select-all-add{width: 80px;}
+span.left{ text-align:center;}
+span.measure{font:italic bold 20px;}
+#stock-organize-set .datas{width:450px;}
+#stock-table-tree{width:500px;}
+.button-delete{ float:left;}
+.form-many-col input.code{width:75px;}
+#provide-transfer table{width:600px;}
+fieldset.common{ padding:3px; margin:5px;}
+.table-two table.datas,.table-two table.sort-datas{width:200px;}
+#evaluating-expert #layout-content{ width:auto;}
+#budget-pro-set input.button-input{width:390px;}
+
+.oriented-row2{padding:4px;width:780px;height:430px;}
+.oriented-content-left2{float:left;width:352px;margin-right:10px;}
+.oriented-content-right2{float:left;width:352px;}
+.oriented-left2,.oriented-right2{height:430px;width:352px;overflow:auto;border:1px solid #ccc;float:left;}
+.oriented-middle2{height:340px;width:50px;margin-right:10px; margin-top:80px;text-align:center;float:left;}
+.oriented-row2 div.oriented-middle2 button.grouping-dis{margin-bottom:30px;}
+.oriented-row2 div.oriented-middle2 button{height:20px;width:32px;border:1px solid #909497;margin-bottom:10px; text-align:center;background:url(images/oriented-button-bg.gif) repeat-x;}
+
+
+.list-data-indent{padding-left:40px;}
+#template-maintenance-list table.datas,
+.maintenance-deal-with-data table.datas,
+#work-setting table.datas,
+#cost-data table.datas,
+#technic-criterion table.datas,
+#currency-equipment-disposal table.datas,
+#payout-type-list table.datas,
+.complete-final-accounts table.datas,
+#safety-examine-add table.datas,
+#safety-examine-view table.datas,
+.appoint-list table.datas,
+#safety-accident-report table.datas,
+#safety-accident-report-1 table.datas,
+#ameliorate-register-add table.datas{width:600px;}
+#wbs-info div.ui-row label{width:160px;}
+#estate-setting table.datas,
+#purview-setting table.datas,
+.assign table.datas,
+#payout-type-list-view table.datas,
+#type-antitheses-data table.datas,
+#quality-maintenance table.datas,
+.function-corresponding table.datas{width:400px;}
+.set-appoint-list table.datas{width:500px;}
+.set-appoint-small table.datas,
+.set-appoint-small table.sort-datas{width:200px;}
+#type-antitheses table.sort-datas{width:300px;}
+#machine-setting table.datas,
+#manpower-setting table.datas{width:800px;}
+#custom-info-maintenance .oriented-left{width:420px;height:100px;}
+#custom-info-maintenance-if #layout-content,
+.fit-form #layout-content,
+#custom-latitude #layout-content,
+#custom-latitude #control-area,
+#purview-setting-search #layout-content,
+#work-setting-search #layout-content{overflow:hidden;}
+#custom-info-maintenance-if .oriented-right{width:100%;height:100%;}
+#estate-setting-if-1 .oriented-left,
+#check-accept-maintenance-add #layout-content,
+#function-corresponding-filtrate #layout-content,
+#contract-apply-basic #layout-content,
+#safety-accident-report #layout-content,
+#invite-public-bidding-basic #layout-content,
+#show-cell #layout-content,
+#equipment-maintenance #layout-content,
+#course-list-add #layout-content,
+#course-list-add-data #layout-content,
+#course-list-add-data-1 #layout-content,
+#plan-search-if #layout-content,
+#public-function-agree #layout-content,
+#competition-declare-add #layout-content,
+#competition-declare-view #layout-content,
+.eliminate-set #layout-content,
+#competition-movement-apply-view #layout-content,
+#technic-criterion-add-1 #layout-content,
+#data-search #layout-content,
+.eliminate-tree-set #data-inside{overflow-x:hidden;}
+#technic-guideline table td input.text{width:60px;}
+#technic-guideline table td select{width:70px;}
+#pro-orientation #accessories-info div.ui-buttons{padding:5px 0px;} 
+#layout-breadcrumb{display:none;}
+#ext-gen6 #layout-breadcrumb{ display:block;}
+#technic-criterion-add div.ui-row label{width:150px;}
+#show-cell div.ui-row label{width:40px;}
+#equipment-maintenance div.ui-row span.ui-cell{width:250px;}
+#equipment-maintenance button{width:26px;}
+body.accessories-maintenance input.file{width:250px;} 
+#repair-apply input.calendar-input,
+#data-search input.calendar-input,
+#construct-correspond input.calendar-input,
+#ameliorate-register-search input.calendar-input{width:75px;}
+#type-antitheses #control-area{overflow-x:hidden;}
+#competition-declare-add  div.ui-row span.ui-cell,
+#competition-declare-view  div.ui-row span.ui-cell{width:260px;}
+#plan-scout td input.text{width:80px;}
+.quality-maintenance-add #report-title{padding-left:6px;}
+.quality-maintenance-add p{text-indent: 26px;margin-bottom:100px;}
+.quality-maintenance-add input{width:80px;}
+.quality-maintenance-add #open-win{width:30px;}
+.quality-maintenance-add #choose-input{width:150px;}
+.quality-maintenance-add div.report-finality{padding-left:400px;}
+#plan-scout-search .oriented-row{height:150px;width:auto;}
+#plan-scout-search .oriented-left,
+#plan-scout-search select.multiple{height:150px;}
+#plan-scout-view-setting div.ui-row div.empty{ position:relative;}
+#plan-scout-view-setting div.plan-data,
+#plan-scout-view-setting div.defer-data,
+#plan-scout-view-setting div.cancel-data{width:18px;height:13px;border:1px solid #a0a0a0; position:absolute;top:5px;left:120px;}
+.competition-movement-grade-add div.ui-row label{ width:170px;}
+.competition-movement-grade-add div.alone textarea{width:550px;}
+#competition-movement-apply-view div.ui-row span.ui-cell{width:260px;}
+#safety-examine-add div.ui-row label,
+#safety-examine-view div.ui-row label{width:100px;}
+#technic-criterion-add-1 div.alone textarea{width:400px;}
+#technic-criterion-add div.alone textarea{width:520px;}
+#safety-agreement-add-1 div.ui-row label{width:150px;}
+.year-ration-manage-data iframe,
+#safety-accident-report-1 iframe{height:180px;}
+#ameliorate-register-add div.ui-row label{width:96px;}
+#layout-toolbar div.sumbmenu .menu-seeting{width:180px;}
+.oriented-right .add-dis{padding-left:20px;}
+.choose-set #layout-content{width:auto;}
+#safety-accident-report-1 div.ui-row label{width:106px;}
+#public-function-agree div.alone textarea{height:100px;width:420px;}
+#pro-orientation #accessories-info{background: #CAE8EA url(images/layout-toolbar-bg.gif) repeat-x left top;}
+#pro-orientation div.ui-buttons button{margin-bottom:6px;}
+#purview-setting-if div.oriented-middle div.top-dis{margin-top:80px;margin-bottom:10px;}
+#purview-setting-if .oriented-left{overflow-x:hidden;}
+.tabs-format #tasks-tab span{width:81px;}
+#pro-expense td input.text{width:80px;}
+.set-accessories .info-alert li div.accessories-info{width:700px;}
+#pro-orientation-set div.ui-row{margin:3px 3px 3px 0px;}
+#pro-orientation-set div.ui-row label{width:80px;}
+#pro-orientation-set input.text{width:250px;}
+#pro-orientation #layout-toolbar .toolbar-content{margin-right:8px;}
+#pro-orientation div.ui-row{width:auto;}
+#pro-orientation div.ui-row span.ui-cell{width:240px;}
+#pro-orientation input.choose-area{width:117px;}
+#custom-info-maintenance-set .set{padding-left:40px;}
+#custom-info-maintenance-set #show-area,#custom-info-maintenance-set #show-data{ display:none;}
+#custom-info-maintenance-set #show-area textarea{width:150px;}
+.form-many-col select.other-apply-select,.form-many-col input.other-apply-select{width:166px;}
+#pro-info-maintenance div.ui-row input.text,#pro-info-maintenance div.ui-row select{width:220px;}
+#pro-info-maintenance div.ui-row label{width:110px;}
+#pro-index .pro-num,#pro-index .module-other a,#pro-manager-index .pro-num{text-decoration:underline;color:#006666;cursor:pointer;}
+#pro-index td.pro-num-td{text-align:right;}
+#pro-manager-index .module-pic{width:auto;height:auto;}
+#choose-person-role #layout-content{background:#fff; position: relative;}
+#choose-person-role .module-title{border:0px;width:auto;}
+#accessories-info .module{height:200px;}
+#accessories-info .module-all{width:390px;float:left;}
+#pro-manager-index tbody tr,#pro-index tbody tr{height:22px;}
+#pro-manager-index .module-chart-pos-right{float:left; margin-left:60px;}
+#pro-manager-index .module .module-left,
+#pro-manager-index .module .module-title,
+#pro-manager-index .module .module-datas,
+#pro-manager-index .module .module-pic{width:784px;}

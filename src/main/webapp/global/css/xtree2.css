@@ -1,0 +1,149 @@
+table.webfx-tree-item,table.tree-table{
+	margin:0;
+	padding:0;
+	table-layout:fixed;
+}
+.webfx-tree-item td {
+	margin:0;
+	padding:0;
+}
+
+.trBgcolorCur{
+	background-color:#edf5fa
+}
+.trBgcolor{
+	background-color:#FFFFFF
+}
+.tdBgcolorCur{
+	background-color:#cbd3d8;
+	border:1px solid #cc8811;
+}
+.tdBgcolorEdit{
+    background-color:#ffcc44;
+    height:100px;
+    width:100px;
+    z-index:100;
+	border:1px solid #e0a020;
+	filter:glow(color=#0000ff,strength=5);
+}
+
+td.tree-table-row-tree, th.tree-table-row-tree{
+	border-left:1px solid #cccccc;
+	border-top :0px;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	overflow:hidden;
+}
+td.tree-table-row-data,th.tree-table-row-data{
+	border-left :0px;
+	border-top :0px;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	overflow:hidden;
+}
+
+/*******************************************************************************
+********************************************************************************
+*******************************************************************************/
+.webfx-tree-row {
+	/*
+	line-height:	16px;
+	height:			16px;
+	*/
+	white-space:	nowrap;
+	font:			icon;
+}
+
+
+.webfx-tree-row span {
+	/*
+	display:		inline-block;
+	height:			16px;
+	line-height:	16px;
+	*/
+
+	overflow:		hidden;
+	text-overflow:	ellipsis;
+}
+
+.webfx-tree-children {
+	background-repeat:	repeat-y;
+	background-image:	url("../images/xloadtree2b/I.png") !important;
+	background-position-y:	1px !important;	/* IE only */
+	font:			icon;
+}
+
+.webfx-tree-children-nolines {
+	font:			icon;
+}
+
+
+.webfx-tree-row img {
+	vertical-align:	middle;
+	height:			16px;
+}
+
+.webfx-tree-icon {
+	width:			16px;
+	cursor:			hand;
+	cursor:			pointer;
+}
+
+.webfx-tree-expand-icon {
+	width:		19px;
+}
+
+.webfx-tree-item-label {
+	margin-left:		3px;
+	padding:			1px 2px 1px 2px;
+	text-decoration:	none;
+	color:				WindowText;
+
+}
+
+.webfx-tree-item-label:hover {
+/*	text-decoration:	underline; */
+	height:0pt;
+padding:0pt 2pt 0pt 2pt;
+border:1pt solid #7A98AF;
+background:#C7F1F5;
+text-decoration: none;
+
+}
+.webfx-tree-item-label:visited,
+.webfx-tree-item-label:link{
+	text-decoration:	none;
+}
+
+.selected .webfx-tree-item-label:hover,
+.selected .webfx-tree-item-label {
+	/*background:	ThreeDFace;*/
+	height:0pt;
+padding:0pt 2pt 0pt 2pt;
+border:1pt solid #7A98AF;
+background:#C7F1F5;
+text-decoration: none;
+	/*text-decoration:	none;*/
+}
+
+.selected .webfx-tree-item-label:focus:hover,
+.selected .webfx-tree-item-label:focus,
+.selected .webfx-tree-item-label:active:hover,
+.selected .webfx-tree-item-label:active {
+
+	height:0pt;
+padding:0pt 2pt 0pt 2pt;
+border:1pt solid #7A98AF;
+background:#C7F1F5;
+text-decoration: none;
+
+}
+
+.webfx-tree-item-label {
+	/*-moz-border-radius:	4px;*/
+	/*border:				1px solid transparent;*/
+}
+
+.webfx-tree-hide-root {
+	display:	none;
+}

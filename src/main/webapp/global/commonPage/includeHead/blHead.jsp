@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<%=baseUrl%>/global/js/BL.js"></script>

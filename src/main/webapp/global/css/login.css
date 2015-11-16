@@ -1,0 +1,98 @@
+﻿html,body,,form{margin: 0;padding: 0;border: 0;height: 100%;}
+div,span{margin:0px;}
+body {
+	float: left;
+	font-size: 12px;color: #000;
+	background: #ccc url(images/bg_windows.gif) repeat-x;
+	overflow: hidden;
+	position: relative;
+}
+
+#middle {position: absolute; top: 50%;} /* for explorer only*/
+#inner {position: relative; top: -50%;width: 580px;margin: 0 auto;} /* for explorer only */
+
+
+div#login_top{width: 580px;height: 90px; border: 0px solid #596480;color: inherit;background-color: #cccccc;}
+div#login_middle{width: 580px;height: 202px;border: 0px solid #596480;color: inherit;background: #ccc;}
+div#login_uservalidate{width: 580px;height: 128px; border-top: 3px solid #bbb; color: inherit;background: #fff;}
+div#login_accountbook{width: 580px;height: 128px; border-top: 3px solid #bbb; color: inherit;background: #fff url(../images/bg_login_accountbook.gif) fixed left top no-repeat;}
+
+div#control_msg{clear:both;float: right; padding: 15px 32px 0px 0px; border: 0px solid #bbb; }
+div#control_user{clear:both;float: right; padding: 2px 32px 0px 0px; border: 0px solid #bbb; }
+div#control_password{clear:both;float: right; padding: 2px 32px 0px 0px; border: 0px solid #bbb; }
+
+div#control_verson{float: right; width: 276px; padding: 2px 28px 0px 10px; border: 0px solid #bbb; margin: 0px auto;}
+div#control_line_long{clear:both;float: right; font-size: 4px; width: 380px; height: 1px; margin: 8px 12px 0px 0px; border-top: 1px solid #7F9DB9;background: #fff; }
+div#control_line_small{clear:both;float: right; font-size: 4px; width: 320px; height: 1px; margin: 8px 12px 0px 0px; border-top: 1px solid #7F9DB9;background: #fff; }
+
+div#control_okbutton{float: left; padding: 8px 20px 0px 380px; border: 0px solid #bbb; }
+div#control_cancelbutton{float: left; padding: 8px 20px 0px 0px; border: 0px solid #bbb; }
+
+span#login_txt{margin: 0px;font-size: 9pt; color: #BAE4D8;}
+div#pic{float: left; padding: 0px;}
+.vister{
+	clear:both;
+	float: right;
+	padding: 68px 10px 0px 0px;
+	position: absolute;
+	top:0;
+	margin:0px 0px 0px 380px;
+}
+
+img{ border: 0;}
+
+TD.errorMessage{}
+.label{
+	clear:both;
+	padding: 5px 10px 0px 0px;
+	float: left;
+	font-size: 12px; 
+	color: #000;
+}
+
+.inputText,.inputPassword{
+	font-family: "Tahoma", "宋体";
+	font-size: 9pt;
+	color: #000000;
+	border: 1px #7F9DB9 solid;
+	background-color: #ffffff;
+	font-style: normal;
+	width: 150px;
+}
+
+.inputSelect{
+	font-family: "Tahoma", "宋体";
+	font-size: 9pt;
+	font-style: normal;
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	align: middle;
+	line-height: 20px;
+	width: 200px;
+	padding:0px;
+	margin:0px;
+}
+
+.okbutton {
+    font-family: "Tahoma", "宋体";
+	font-size: 9pt; color: #004848;
+    border: 1px #7F9DB9 solid;
+    background-image: url(../images/bluebutton.gif);
+    CURSOR: pointer;
+    font-style: normal ;
+	margin-right: 20px;
+	width:62px;
+	height:20px;
+}
+
+.graybutton {
+    font-family: "Tahoma", "宋体";
+	font-size: 9pt; color: #333333;
+    border: 1px #7F9DB9 solid;
+    background-image:url("../images/bg_gray_button.gif");
+    CURSOR: pointer;
+    font-style: normal ;
+	width:62px;
+	height:20px;
+}

@@ -1,0 +1,28 @@
+/* undohtml.css */
+/* (CC) 2004 Tantek Celik. Some Rights Reserved.             */
+/*   http://creativecommons.org/licenses/by/2.0                   */
+/* This style sheet is licensed under a Creative Commons License. */
+
+* { margin:0; padding:0 }
+
+/* Purpose: undo some of the default styling of common (X)HTML browsers */
+
+
+/* link underlines tend to make hypertext less readable, 
+   because underlines obscure the shapes of the lower halves of words */
+:link,:visited { text-decoration:none }
+
+/* no list-markers by default, since lists are used more often for semantics */
+ul,ol { list-style:none }
+
+/* avoid browser default inconsistent heading font-sizes */
+/* and pre/code too */
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+
+/* whoever thought blue linked image borders were a good idea? */
+a img,:link img,:visited img, iframe, html, body { border: 0 none; }
+
+/* de-italicize address */
+address { font-style:normal }
+
+/* more varnish stripping as necessary... */

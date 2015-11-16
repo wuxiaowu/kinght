@@ -1,0 +1,16 @@
+.x-ss-group-tl, .x-ss-group-tr{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(images/corners-sprite.gif);
+	background: transparent url(images/corners-sprite.gif) no-repeat scroll right 0;
+}
+.x-ss-group-tl{
+	border-bottom: 1px solid #99bbe8;
+	padding-left: 6px;
+	background-position: left;
+}
+.x-ss-group-tr{
+	padding-right: 6px;
+	background-position: right;
+}

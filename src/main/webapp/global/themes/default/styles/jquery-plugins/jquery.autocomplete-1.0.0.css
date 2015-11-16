@@ -1,0 +1,45 @@
+/**
+ * @name jquery-autocomplete-1.0.0.css
+ * @author flymz / fly_mz@126.com
+ * @version 1.0.0
+ * @update at 2008-01-11
+ * if use in mat use the last two
+ */
+ 
+
+.ac_results1 {
+    padding: 0px;
+    border: 1px solid WindowFrame;
+    background-color: Window;
+    z-index: 100;
+	position:absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.ac_results li {
+    margin: 0px;
+    padding: 0;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+
+.ac_results {
+    width: 152px;
+    height: 100px;
+    border: 1px solid #7f9db9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+    position: absolute;
+    margin: -1px 0px 0px 116px;
+    display: none;
+}
+
+* html .ac_results {
+    width: 150px;
+    margin: 20px 0px 0px -152px;
+}
+

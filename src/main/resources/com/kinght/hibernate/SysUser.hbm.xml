@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-1-29 10:18:51 by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.kinght.web.sys.domain.SysUser" table="TB_USER">
+        <id name="strAccountID" type="java.lang.String">
+            <column name="StrAccountID"/>
+        </id>
+        <property name="strPasswd" type="java.lang.String">
+            <column name="StrPasswd"/>
+        </property>
+        <property name="strSocNo" type="java.lang.String">
+            <column name="StrSocNo"/>
+        </property>
+        <property name="idays" type="java.lang.Long">
+            <column name="idays"/>
+        </property>
+        <property name="CashPoint" type="java.lang.Long">
+            <column name="CashPoint"/>
+        </property>
+        <property name="strIP" type="java.lang.String">
+            <column name="strIP"/>
+        </property>
+        <property name="iDiffTime" type="java.lang.Long">
+            <column name="iDiffTime"/>
+        </property>
+        <property name="iPoint" type="java.lang.Long">
+            <column name="iPoint"/>
+        </property>
+        <property name="regdate" type="java.util.Date">
+            <column name="regdate"/>
+        </property>
+        <property name="strMd5Pwd" type="java.lang.String">
+            <column name="StrMd5Pwd"/>
+        </property>
+        <property name="strEmail" type="java.lang.String">
+            <column name="StrEmail"/>
+        </property>
+    </class>
+</hibernate-mapping>
+

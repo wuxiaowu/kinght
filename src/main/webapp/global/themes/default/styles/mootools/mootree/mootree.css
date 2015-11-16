@@ -1,0 +1,21 @@
+.mooTree_node {white-space: nowrap;}
+
+.mooTree_text {
+	padding-top: 3px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.mooTree_img {
+	float: left;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.mooTree_selected	 {
+	background-color: #e0f0ff;
+	font-weight: bold;
+}
+
+.mooTreeNodeImg{background-image: url(mootree.gif)}

@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+.x-tree-node-expanded .x-tree-node-icon{  
+     background-image:url(../images/expanded.gif);  
+}  
+   
+.x-tree-node-leaf .x-tree-node-icon{  
+     background-image:url(../images/leaf.gif);  
+}  
+   
+.x-tree-node-collapsed .x-tree-node-icon{
+     background-image:url(../images/nothing.gif);  
+} 
+
+.x-tree-lines .x-tree-elbow-end-minus{
+	 background-image:url(../images/minus.gif);  
+}
+
+.x-tree-lines .x-tree-elbow-minus{
+	 background-image:url(../images/minus.gif);  
+}
+
+.x-tree-lines .x-tree-elbow-plus{
+	background-image:url(../images/plus.gif);  
+}
+
+.x-tree-lines .x-tree-elbow-end-plus{
+	background-image:url(../images/plus.gif);
+}
+
+.x-tree-lines .x-tree-elbow-line{
+	background-image:url(../images/nothing.gif);
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context-3.1.xsd
+           http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+            http://www.springframework.org/schema/mvc
+            http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
+
+    <context:annotation-config/>
+    <aop:aspectj-autoproxy/>
+
+    <!-- 加载数据库配置 -->
+    <import resource="dataSource/dataSource-ccbs.xml"/>
+    <import resource="dataSource/hibernate-config.xml"/>
+    <!-- 加载持久化层支撑Bean -->
+    <import resource="dataSource/seqIncrementerAndSqlConvert-ccbs-sqlServer.xml"/>
+    <import resource="dataSource/jdbcTemplate-ccbs.xml"/>
+    <import resource="dataSource/transaction-ccbs.xml"/>
+    <!--spring action 拦截器配置-->
+     <import resource="actionInteceptor-config.xml"/>
+    <!--spring method 拦截器配置-->
+    <import resource="online-daoInteceptor-config.xml"/>
+     <!--spring method 拦截器配置-->
+    <!-- 3.加载业务对象 -->
+
+    <import resource="brainlong/common/applicationContext-common-mysql.xml"/>
+    <import resource="brainlong/wisechain/applicationContext-wisechain-mysql.xml"/>
+    <import resource="brainlong/dc/applicationContext-dc-mysql.xml"/>
+    <import resource="brainlong/multichannel/applicationContext-multichannel-mysql.xml"/>
+	<import resource="brainlong/emailTask/applicationContext-emailTask-mysql.xml"/>
+    <import resource="ccbs/applicationContext-ccbs-mysql.xml"/>
+    <import resource="core/applicationContext-core-mysql.xml"/>
+    <!--加载万达业务对象-->
+    <import resource="com/brainlong/wandaktv/spring/application-wandaKTV-mysql.xml"/>
+    <!--<import resource="update-productCatetory-task.xml"/>-->
+    <import resource="create-image-transfer-task.xml"/>
+    <!--<import resource="pos-orderpaily-task.xml"/> -->
+    <import resource="com/brainlong/wandaktv/cashiertools/application-wandaKTV-mysql.xml"/>
+    <!-- 3.加载View层对象 -->
+    <!-- 添加公共服务配置文件 -->
+    <import resource="brainlong/applicationContext-frame-service.xml"/>
+    <!-- 添加当事人域的配置文件 -->
+    <import resource="brainlong/core/party/applicationContext-core-party-mysql.xml"/>
+    <!-- 添加当事人域支持的配置文件 -->
+    <import resource="brainlong/core/party/supportservice-core-party.xml"/>
+    <!-- 添加产品域的配置文件 -->
+    <import resource="brainlong/core/product/applicationContext-core-product-mysql.xml"/>
+    <!-- 添加产品域支持的配置文件 -->
+    <import resource="brainlong/core/product/supportservice-core-product.xml"/>
+    <!-- 添加订单域的配置文件 -->
+    <import resource="brainlong/core/order/applicationContext-core-order-mysql.xml"/>
+    <!-- 添加订单域支持的配置文件 -->
+    <import resource="brainlong/core/order/supportservice-core-order.xml"/>
+    <!-- 添加公共域的配置文件 -->
+    <import resource="brainlong/core/common/applicationContext-core-common-mysql.xml"/>
+    <!-- 添加公共域支持的配置文件 -->
+    <import resource="brainlong/core/common/supportservice-core-common.xml"/>
+    <!-- 添加品牌相关服务 -->
+    <import resource="ccbs/brand/papa/applicationContext-papa.xml"/>
+
+    <!-- 3.加载控制台业务对象 -->
+    <import resource="analysis/applicationContextOracle.xml"/><!-- 系统管理 -->
+    <import resource="console/applicationContextOracle.xml"/><!-- 系统管理 -->
+	<import resource="report/applicationContextOracle.xml"/><!-- view -->
+    <import resource="applicationContext-ehcache.xml"/><!-- cache -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>classpath:i18n/common</value>
+                <value>classpath:i18n/home</value>
+                <value>classpath:i18n/account</value>
+            </list>
+        </property>
+        <property name="useCodeAsDefaultMessage" value="true" />
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="cacheSeconds" value="3600" />
+    </bean>
+    <!-- 国际化文件 -->
+    <mvc:interceptors>
+        <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+        </bean>
+    </mvc:interceptors>
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="defaultLocale" value="zh_CN"/>
+        <property name="cookieName" value="lang"/>
+        <property name="cookiePath" value="/online"/>
+        <property name="cookieMaxAge" value="604800" />
+    </bean>
+    <bean id="handlerMapping" class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+    </bean>
+</beans>

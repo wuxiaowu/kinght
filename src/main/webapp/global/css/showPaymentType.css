@@ -1,0 +1,206 @@
+body{ margin:0;
+      padding:0;
+      text-align: center;
+      background-color:#D1E9E9;
+    width: 700px;
+}
+#content{
+    height:100%;
+    width:700px;
+}
+.paymentOk{
+    font-size:18px;
+    color: red;
+}
+#wl-wd-payment-left{
+    height:400px;
+    width:40%;
+    float:left;
+    margin: 0px;
+   overflow-y: scroll;
+}
+#wl-wd-payment-right{
+    height:650px;
+    width:60%;
+    float:left;
+    text-align: center;
+}
+.wl-wd-payment-money-table {
+    margin-left: 10%;
+    border:1px solid #EEE9E9;
+ /*   border-collapse:0;*/
+    border-spacing:1px;
+    width:80%;
+    text-align: left;
+    background-color:rgba(0, 0, 0, 0.20);
+ }
+.wl-wd-payment-th{
+  background-color: #D6E7F1;
+  font-weight: bolder!important;
+  font-size:18px;
+
+}
+.wl-wd-payment-tr{
+   background-color: #EEE9E9;
+
+ }
+
+ td{
+     width:50%;
+     height:25px;
+ }
+/*.wl-wd-payment-money-table tr td {*/
+     /*background-color: rgba(0, 0, 0, 0.34);*/
+ /*}*/
+#wl-wd-payment-left  input{
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 49px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+	margin-left:15px;
+	margin-top:12px;
+ }
+#wl-wd-payment-text input{
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    text-align: left;
+    text-decoration: none;
+    width:80%;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+#wl-wd-payment-table{
+    margin:0 auto;
+    text-align: center;
+}
+.wl-wd-payment-money{
+    line-height:40px;
+    font-size:14px;
+}
+.wl-wd-payment-money input{
+     width:60%;
+     height:20px;
+}
+#wl-wd-payment-button input{
+    color: rgba(0, 0, 0, 0.62);
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 31px;
+	margin-top:10px;
+    
+    text-align: center;
+    text-decoration: none;
+
+    width: 87px;
+	}
+
+label{
+    font-size:18px;
+}
+.wl-wd-payment-money input{
+    /*background-color: rgba(0, 0, 0, 0.20);*/
+    border:1px #999999 solid ;
+    height:30px;
+
+}
+.select{
+    background:-webkit-linear-gradient(top,#94c1e9,#6ea1e1);
+}
+.selectTr{
+          background-color: #775c60;
+	}
+.wl-result-return-money{
+    width: 40%;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    left: 24%;
+    top: 35%;
+    z-index: 0  ;
+    display: none;
+}
+.wl-result-money{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    position: absolute;
+    left: 24%;
+    top: 35%;
+    z-index: 0  ;
+    display: none;
+}
+
+#wl-value-card-validate{
+    width: 300px;
+    height: 100px;
+    background-color: #cccccc;
+    position: absolute;
+    left: 24%;
+    top: 35%;
+    z-index: 0  ;
+    display: none;
+}
+#wl-value-card-validate-info{
+     padding-top: 30px;
+}
+.wl-result-money  table{
+     border: 1px;
+     text-align: center;
+ }
+.wl-result-money input{
+    border:1px #999999 solid ;
+    height:30px;
+}
+.wl-result-return-money  table{
+    border: 1px;
+    text-align: center;
+}
+.wl-result-return-money input{
+    border:1px #999999 solid ;
+    height:30px;
+}
+.wl-result-money-head{
+    background-color: #66b4ff ;
+
+}
+#wl-result-money-ok,
+#wl-result-money-return-ok{
+    background-color: #66b4ff ;
+}
+
+.notice_span{
+    font-weight: bolder!important;
+}
+
+.wl-wd-payment-success{
+    font-weight: bolder!important;
+    font-size:30px;
+}
+.wl-wd-payment-ok{
+    font-weight: bolder!important;
+    font-size:20px;
+    color: red;
+}
+
+.wl-head-name {background:url(../../pos/themes/image/pos/banner.png) top left no-repeat; height:12%; width:100%;}
+.wh-room-name{background:url(../../pos/themes/image/pos/room.png) top left no-repeat;width: 35px;height: 36px;float: left}
+.wl-billno-name{background:url(../../pos/themes/image/pos/billno.png) top left no-repeat;width: 35px;height: 36px;float: left}
+.wl-bank-name{background:url(../../pos/themes/image/pos/bank.png) top left no-repeat;width: 35px;height: 36px;float: left}
+.wl-datetime-name{background:url(../../pos/themes/image/pos/datetime.png) top left no-repeat;width: 35px;height: 36px;float: left}
+.wl-state-name{background:url(../../pos/themes/image/pos/state.png) top left no-repeat;width: 35px;height: 36px;float: left}
+.wl-padding-left{
+    padding-left: 10px;
+}
+
+

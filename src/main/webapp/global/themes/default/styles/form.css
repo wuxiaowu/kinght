@@ -1,0 +1,115 @@
+/*
+	只放置form样式相关css定义
+*/
+
+div.alone  textarea,textarea.alone{width:600px;}
+.form div.alone  textarea{width:460px;}
+div.form-row span.textareabutton{width:auto;}
+
+td input.text, td input.password, td select,.form-many-col td input.text,.form-many-col td select{width: 80px;}
+#level-set td input.text, td input.password{width: 150px;}
+#level-set table{width:380px;}
+input.text, input.password{	width: 150px; text-indent:3px;}
+input.format-num{ text-align:right;padding-right:3px;}
+input.dais,input.volt-ampere{width:80px;}
+
+select{width: 150px;}
+.form-many-col select,.form-many-col input.text{width:122px;}
+select.year-month-quarter,
+input.code{width:75px;}
+select.item{width:123px;}
+select.multiple{width:252px;height:250px;}
+*html select.multiple{width:250px;}
+
+input.submit, input.button, input.reset, button{
+	background-image: url(images/button-bg.gif);
+	border: 1px solid #7f9db9;
+	background-color: #ffffff;
+	cursor: pointer;
+	padding: 0 3px 0 3px;
+	height:20px;
+	text-align:center;
+}
+*html button{margin-left:3px;}
+input.button-input{width:122px;}
+button.cancel{background-image: url(images/button-cancel-bg.gif);}
+
+button.select{width: 20px;}
+
+div.form-row, div.form-buttons{
+	margin-bottom: 6px;
+	clear: left;
+	width: 740px;
+}
+
+div.form-row label{
+	float: left;
+	clear: left;
+	text-align: right;
+	width: 110px;
+	padding-top: 5px;
+}
+
+label.required{font-weight: bold;}
+input.required{border: 1px solid red;}
+
+div.form-row span{
+	display: block;
+	float: left;
+	width: 370px;
+	margin: 1px 0 1px 0;
+}
+
+div.form-buttons{text-align: center;}
+div.form-buttons input, div.form-buttons button{margin-right: 10px;}
+
+form div.flow{clear: none; width: auto; height: auto;}
+form div.flow span{width: auto; margin-right: 10px;}
+form div.flow span label{float: none;}
+
+.fieldset{
+	border-width: 1.5em 0 0 0;
+	border-top-style: solid;
+}
+.fieldset .legend{
+	font-weight: bold;
+	padding-left: 5px;
+	line-height: 150%;
+	background-image: url(images/expand-bg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 16px;
+}
+
+legend{padding:0px 6px 0px 3px;}
+.fieldset legend.collapse{
+	background-image: url(images/collapse-bg.gif);
+}
+fieldset.collapse{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+fieldset.default{border:0;}
+input.select-input-text{
+position: absolute;
+top:100px;
+margin:1px 0px 0px -154px;
+width:134px;
+border:0;
+}
+* html input.file{ border:1px solid #7f9db9}
+input.file{width:162px;}
+* html select.auto-select{
+	z-index: 100;
+	position: absolute;
+	top:100px;
+	clip: rect(0, 230, 110, 135);
+}
+* html input.select-input-text{
+	position: relative;
+	top:74px;
+	margin:0px;
+	width: 138px;
+	height:22px;
+	border:1px solid #7f9db9;
+}

@@ -1,0 +1,53 @@
+.tabbedPanel {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px solid; WIDTH: 100%; COLOR: windowtext; PADDING-TOP: 3px; BORDER-BOTTOM: 0px solid; FONT-FAMILY: , Arial, Times New Roman; HEIGHT: 100%
+}
+.tabbedPanel_header {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; FONT-SIZE: 9pt; MARGIN: 0px; BORDER-LEFT: 0px solid; COLOR: windowtext; BORDER-BOTTOM: 0px solid; FONT-FAMILY: , Arial, Times New Roman; HEIGHT: 23px
+}
+.tabbedPanel_header_table {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; FONT-SIZE: 9pt; MARGIN: 0px; BORDER-LEFT: 0px solid; COLOR: windowtext; BORDER-BOTTOM: 0px solid; FONT-FAMILY: , Arial, Times New Roman
+}
+.tabbedPanel_tabActive {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: windowtext; FONT-FAMILY: , Arial, Times New Roman; HEIGHT: 23px
+}
+.tabbedPanel_tabActive_left {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/list/tab_left_selected1.gif); WIDTH: 4px; COLOR: windowtext; BACKGROUND-REPEAT: no-repeat; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9
+}
+.tabbedPanel_tabActive_middle {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../images/list/tab_bg_selected1.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9; PADDING-TOP: 5px; font-weight: bold;
+	border:0px solid #99BBE8;
+color:#006666;
+}
+.tabbedPanel_tabActive_right {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../images/list/tab_right_selected1.gif); WIDTH: 4px; COLOR: windowtext; BACKGROUND-REPEAT: no-repeat; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9; 
+}
+.tabbedPanel_tabInactive {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; CURSOR: hand; COLOR: windowtext; FONT-FAMILY: , Arial, Times New Roman; HEIGHT: 23px
+}
+.tabbedPanel_tabInactive_left {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/list/tab_left1.gif); WIDTH: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9
+}
+.tabbedPanel_tabInactive_middle {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/list/tab_bg1.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9; PADDING-TOP: 5px; color:#005555;
+}
+.tabbedPanel_tabInactive_right {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../images/list/tab_right1.gif); WIDTH: 4px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 23px; BACKGROUND-COLOR: #CAE7E9
+}
+.tabbedPanel_hyperActive {
+	COLOR: window; TEXT-DECORATION: none
+}
+.tabbedPanel_hyperInactive {
+	COLOR: windowtext; TEXT-DECORATION: none
+}
+.tabbedPanel_body {
+	BORDER-RIGHT: #76C6CC 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #76C6CC 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #76C6CC 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #76C6CC 1px solid
+}
+.tabbedPanel_body_div {
+	OVERFLOW: auto; WIDTH: 100%; POSITION: relative; HEIGHT: 100%
+}
+.tabbedPanel_footer {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; COLOR: windowtext; PADDING-TOP: 5px; FONT-FAMILY: , Arial, Times New Roman; HEIGHT: 28px; TEXT-ALIGN: right; align: right
+}
+.tabbedPanel_footer_input {
+	MARGIN: 0px 0px 0px 6px
+}
